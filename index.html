@@ -1,23 +1,56 @@
----
-layout: default
----
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Marcin Majkowski by marcinmajkowski</title>
 
-<div class="home">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Marcin Majkowski</h1>
+        <p>Passionate Software Engineer.</p>
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p class="view"><a href="https://github.com/marcinmajkowski">View My GitHub Profile</a></p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+      </header>
+      <section>
+        <h3>
+<a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome</h3>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<p>My name is Marcin and currently I'm living in Warsaw, Poland.</p>
 
-</div>
+<p>I consider myself as a passionate software engineer. My favourite programming language is Java but I'm also comfortable with C++ and C. I also code in JavaScript, with main focus on AngularJS. Apart from pure coding, I enjoy software development in general - especially designinig applications architecture and their web APIs.</p>
+
+<h3>
+<a id="current-work" class="anchor" href="#current-work" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Current work</h3>
+
+<p>Apart from working on exciting projects at Samsung R&amp;D, I actively develop my own open source. Currently this is:</p>
+
+<ul>
+<li>Membership software - <a href="https://github.com/marcinmajkowski/membership-software-webapp">Angular Material frontend</a>, <a href="https://github.com/marcinmajkowski/membership-software">Spring Java backend</a>
+</li>
+<li>godzinyzajec.pl - <a href="https://github.com/marcinmajkowski/godzinyzajec-pl-dashboard-webapp">Angular Material dashboard frontend</a>, <a href="https://github.com/marcinmajkowski/godzinyzajec-pl-dashboard">Spring Cloud Zuul proxy and Spring Security authentication for dashboard</a>, <a href="https://github.com/marcinmajkowski/godzinyzajec-pl-api">Spring Java backend</a>, and more...</li>
+</ul>
+
+<h3>
+<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h3>
+
+<p>Feel free to contact me via my <a href="https://www.linkedin.com/in/marcinmajkowski">LinkedIn</a> profile. I'm always happy to hear about interesting projects I can join in or to discuss my open source code.</p>
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
